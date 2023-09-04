@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logged in as Luluhoy</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <style>
+        body {
+            background-color: #282a2b;
+            color: white;
+            width: 100vw;
+            height: 100vh;
+            margin: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+
+        #tblpl {
+            padding: 12px;
+            width: 100vw;
+        }
+
+        tr>a {
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            padding: 5px;
+            border-radius: 5%;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .image-container {
+            min-width: 50px;
+        }
+
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .addremove {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+
+        .addremove>button {
+            background-color: transparent;
+            border: none;
+            color: white;
+            font-size: 2em;
+        }
+
+        .image-container img {
+            max-width: min(370px,75vw);
+        }
+
+        #title {
+            font-size: 1.5em;
+        }
+
+        #subtitle {
+            font-size: 1em;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="padding: 50px;">
+        <div class="image-container">
+            <img id="alb-art" src="">
+        </div>
+        <div class="text-container">
+            <span id="title">title</span>
+            <span id="subtitle">subtitle</span>
+        </div>
+        <div class="addremove">
+            <button id="add" class="material-symbols-outlined">add_circle</button>
+            <button id="remove" class="material-symbols-outlined">do_not_disturb_on</button>
+        </div>
+        <audio controls="" id="audio" style="width: 100%;">
+        </audio>
+    </div>
+
+
+</body>
+
+</html>
